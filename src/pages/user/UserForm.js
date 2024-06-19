@@ -3,9 +3,7 @@ import axios from 'axios';
 import {
   TextField,
   Button,
-  Grid,
   Typography,
-  Paper,
   CircularProgress,
   MenuItem,
   Select,
@@ -153,9 +151,8 @@ const UserForm = () => {
   };
 
   return (
-    <Grid container justifyContent="center" spacing={2}>
-      <Grid item xs={10} md={6}>
-        <Paper elevation={3} style={{ padding: '20px' }}>
+
+        <div style={{ padding: '10px' }}>
           <Typography variant="h5" gutterBottom>
             Edit User
           </Typography>
@@ -224,9 +221,8 @@ const UserForm = () => {
               Update
             </Button>
           )}
-        </Paper>
-      </Grid>
-    </Grid>
+        </div>
+  
   );
 };
 

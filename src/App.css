@@ -35,7 +35,6 @@
 .toolbar-link {
   color: inherit; /* Inherit color from parent */
   text-decoration: none; /* Remove underline */
-  padding: 10px;
   transition: background-color 0.3s ease; /* Add transition effect */
 }
 
