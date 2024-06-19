@@ -120,7 +120,9 @@ const UserForm = () => {
   const handleUpdate = async () => {
     try {
       setIsLoading(true);
-      await axios.patch(`${baseurl}/users/${user.tgId}`, user);
+      const enitity =user;
+      delete enitity['_id']
+      await axios.patch(`${baseurl}/users/${user.tgId}`, enitity);
       setIsLoading(false);
       alert('User updated successfully!');
       setSelectedKeys(['']); // Reset form after successful update
