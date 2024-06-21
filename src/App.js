@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import User from './pages/user/User';
 import UserData from './pages/user-data/UserData'; // Example additional page
 import Client from './pages/clients/Client'; // Example additional page
+import Configuration from './pages/configuration/Configuration'; // Example additional page
 import Main from './pages/main';
 import './App.css'
 
@@ -23,6 +24,9 @@ function App() {
             <Button color="inherit">
               <Link to="/userData" className="toolbar-link">UserData</Link>
             </Button>
+            <Button color="inherit">
+              <Link to="/Configuration" className="toolbar-link">Configuration</Link>
+            </Button>
           </Toolbar>
         </AppBar>
         <Routes>
@@ -30,6 +34,7 @@ function App() {
           <Route path="/user" element={<User />} />
           <Route path="/userData" element={<UserData />} />
           <Route path="/Client" element={<Client />} />
+          <Route path="/Configuration" element={<Configuration />} />
         </Routes>
       </div>
     </Router>

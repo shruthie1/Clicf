@@ -8,6 +8,7 @@ function Main() {
     { path: '/user', label: 'User Page' },
     { path: '/userData', label: 'UserData Page' },
     { path: '/client', label: 'Client Page' },
+    { path: '/configuration', label: 'Configuration Page' },
     // Add more pages as needed
   ];
 
