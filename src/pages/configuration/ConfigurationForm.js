@@ -14,7 +14,7 @@ import {
     InputLabel,
     FormControl,
 } from '@mui/material';
-const baseurl = 'https://shruthie.onrender.com'
+const baseurl = 'https://uptimechecker2.glitch.me'
 
 // List of all possible keys from the user schema
 const userKeys = [

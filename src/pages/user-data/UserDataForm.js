@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import { AddCircleOutline, RemoveCircleOutline } from '@mui/icons-material';
 
-const baseurl = 'https://shruthie.onrender.com';
+const baseurl = 'https://uptimechecker2.glitch.me';
 
 const userKeys = [
     "chatId",
