@@ -11,7 +11,7 @@ import {
     FormControl,
     IconButton,
 } from '@mui/material';
-import { AddCircleOutline, RemoveCircleOutline } from '@mui/icons-material';
+import { RemoveCircleOutline } from '@mui/icons-material';
 
 const baseurl = 'https://uptimechecker2.glitch.me';
 
