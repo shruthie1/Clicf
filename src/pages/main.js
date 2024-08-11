@@ -9,6 +9,7 @@ function Main() {
     { path: '/userData', label: 'UserData Page' },
     { path: '/client', label: 'Client Page' },
     { path: '/configuration', label: 'Configuration Page' },
+    { path: '/requestCall', label: 'Request Call' },
     // Add more pages as needed
   ];
 
